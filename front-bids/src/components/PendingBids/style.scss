@@ -1,0 +1,38 @@
+.pending-bids-wrapper {
+  width: 100%;
+}
+
+.ReactVirtualized__Table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1050px;
+  }
+
+  .ReactVirtualized__Table__headerColumn {
+    text-align: center;
+  }
+
+  .ReactVirtualized__Grid {
+    border-top: 2px solid black;
+    height: 60vh !important;
+    padding-left: 430px !important;
+    &::-webkit-scrollbar {
+      width: 16px;
+    }
+  }
+  .ReactVirtualized__Table__row {
+    left: 85px !important;
+  }
+
+  .ReactVirtualized__Table__rowColumn {
+    height: 39px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ReactVirtualized__Table__headerRow {
+    text-transform: none;
+    padding-left: 1015px !important;
+  }

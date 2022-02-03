@@ -1,0 +1,22 @@
+{
+  "name": "seeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "redis": "^3.1.2",
+    "unique-names-generator": "^4.3.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
